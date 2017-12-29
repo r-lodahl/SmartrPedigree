@@ -1,0 +1,99 @@
+.link {
+	fill: none;
+}
+
+.affected {
+	fill: indianred;
+	stroke: black;
+	stroke-width: 3;
+}
+
+.affected0 {
+	fill: indianred;
+	stroke: none;
+}
+
+.affected1 {
+	fill: dodgerblue;
+	stroke: none;
+}
+
+.affected2 {
+	fill: orange;
+	stroke: none;
+}
+
+.affected3 {
+	fill: blueviolet;
+	stroke: none;
+}
+
+.unaffected {
+	fill: transparent;
+	stroke: black;
+	stroke-width: 3;
+}
+
+.headertext {
+	font-size: 20px;
+	text-decoration: underline;
+}
+
+.textNode {
+	font-size: 12px;
+}
+
+.dataTable table {
+	border-collapse: collapse;
+}
+
+.dataTable table tbody tr th {
+	padding-top: 8px;
+	padding-bottom: 8px;
+	text-align: left;
+	background-color: #515BA2;
+	color: white;
+}
+
+.dataTable table tbody tr th, .dataTable table tbody tr td {
+	border: 1px solid #aaa;
+	padding: 2px;
+	padding-left: 4px;
+	padding-right: 8px;
+}
+
+.dataTable {
+	margin-bottom: 20px;
+	margin-left: 20px;
+	float: left;
+}
+
+.dataTables {
+	overflow: auto;
+}
+
+.headerColumn {
+	background-color: #515BA2;
+	color: white;
+}
+
+#downloadBtn {
+	height: 20px;
+	width: 200px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	vertical-align: bottom;
+}
+
+#prevPedBtn {
+	height: 20px;
+	width: 200px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+#nextPedBtn {
+	height: 20px;
+	width: 200px;
+	margin-bottom: 20px;
+}
